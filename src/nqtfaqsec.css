@@ -1,0 +1,76 @@
+.nqtfaqsection {
+  background-color: black;
+  border-bottom: 10px solid rgb(45, 45, 45);
+  width: 100%;
+  padding-bottom: 20px;
+}
+.nqtfaqsec {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 50px;
+  gap: 20px;
+}
+.nqtfaqheading h1 {
+  font-size: 46px;
+  color: white;
+}
+
+.nqtfaq {
+  /* background-color: rgb(208, 109, 109); */
+  width: 100%;
+}
+
+.nqtfaq-boxes {
+  width: 80%;
+}
+
+.peragraphs {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 30px;
+}
+
+details {
+  background-color: rgb(50, 50, 50);
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  cursor: pointer;
+}
+
+details p {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  font-size: 24px;
+}
+
+.perafaq {
+  padding-left: 30px;
+  background-color: rgb(80, 80, 80);
+}
+
+summary {
+  cursor: pointer;
+  list-style: none;
+  font-size: 24px;
+}
+
+.lastpera {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+  color: white;
+  padding-bottom: 50px;
+}
+
+.lastpera h2 {
+  font-size: 19px;
+  font-family: Arial, Helvetica, sans-serif;
+}

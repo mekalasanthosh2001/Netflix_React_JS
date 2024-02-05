@@ -1,0 +1,121 @@
+.nththirdsection {
+  background-color: rgb(0, 0, 0);
+  width: 100%;
+  height: 100%;
+  display: flex;
+  /* padding: 10px 100px; */
+  justify-content: center;
+  align-items: center;
+}
+
+.thrdminibox {
+  display: flex;
+  /* position: fixed; */
+  position: relative;
+  width: 55%;
+  background-color: rgb(5, 5, 5);
+  top: -150px;
+  left: 140px;
+  padding: 10px;
+  border: 2px solid gray;
+  border-radius: 15px;
+  justify-content: space-around;
+  gap: 20px;
+  align-items: center;
+}
+.thrdminibox img {
+  width: 20%;
+}
+.imageboxdwldicon img {
+  width: 50%;
+}
+.imgboxtextone {
+  display: block;
+  color: white;
+}
+
+.thirdsec-textside {
+  width: 100%;
+  display: flex;
+  height: auto;
+  padding: 50px 50px 0px;
+}
+.thirdsidetextone {
+  color: aliceblue;
+  width: 100%;
+  /* padding-right: 110px; */
+  justify-content: center;
+}
+.thirdsidetextone h1 {
+  /* font-size: 46px; */
+  font-weight: 800;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.thirdsidetextone h3 {
+  text-align: left;
+  font-size: 24px;
+  font-family: Arial, Helvetica, sans-serif;
+  padding-bottom: 100px;
+  font-weight: 400;
+}
+
+.imgboxtextone .downloading {
+  color: blue;
+}
+.imgboxtextone .imgtextpera {
+  font-size: 17px;
+  font-weight: 600;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.imgboxtextone p {
+  padding: 1px 0px;
+  padding-right: 10px;
+}
+
+@media (max-width: 1080px) {
+  .nththirdsection {
+    flex-direction: column-reverse;
+    text-align: center;
+    /* flex-wrap: wrap-reverse; */
+  }
+
+  .thirdsec-textside {
+    text-align: center;
+  }
+  .thirdsidetextone h3 {
+    text-align: center;
+  }
+}
+
+@media (max-width: 600px) {
+  .thirdsec-textside {
+    text-align: center;
+  }
+  .nththirdsection {
+    flex-direction: column-reverse;
+    text-align: center;
+  }
+  .thirdsidetextone h1 {
+    text-align: center;
+  }
+}
+
+/* @media (max-width: 600px) {
+  .thirdsecimgimg img {
+    width: 100%;
+  }
+
+  .thirdsecimgimg {
+    width: 100%;
+  }
+}
+*/
+@media (max-width: 600px) {
+  .thirdsecimgimg img {
+    width: 80%;
+  }
+  .thrdminibox {
+    top: -80px;
+    left: 22%;
+  }
+}

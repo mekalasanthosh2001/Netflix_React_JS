@@ -1,0 +1,86 @@
+.herosection {
+  color: white;
+  height: 85vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.heroperas {
+  padding: 0px 20px;
+}
+.heroperas h1,
+h3,
+h2 {
+  display: block;
+  justify-content: center;
+  text-align: center;
+  padding: 12px 0px;
+}
+.heroperas h1 {
+  font-size: 45px;
+  font-family: sans-serif, Arial, Helvetica;
+  font-weight: 800;
+}
+.heroperas h3 {
+  font-size: 25px;
+  font-family: sans-serif, Arial, Helvetica;
+  font-weight: 400;
+}
+.heroperas h2 {
+  font-size: 19px;
+  font-family: sans-serif, Arial, Helvetica;
+  font-weight: 400;
+}
+.herosec-searchbox {
+  display: flex;
+  gap: 8px;
+  padding: 10px 40px;
+  color: white;
+}
+
+.herosec-searchbox input {
+  height: 55px;
+  width: 340px;
+  padding-left: 10px;
+  border-radius: 3px;
+  color: white;
+  background-color: rgba(85, 85, 85, 0.333);
+  border: 1px solid rgba(198, 197, 197, 0.897);
+  font-size: 16px;
+}
+
+.hero-searchboxbtn button {
+  background-color: red;
+  height: 55px;
+  border-radius: 5px;
+  width: 200px;
+  border: none;
+  font-size: 19px;
+  color: white;
+  font-weight: 600;
+  font-size: 22px;
+  letter-spacing: 0.1ch;
+}
+
+@media (max-width: 780px) {
+  .herosec-searchbox {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+@media (max-width: 400px) {
+  .hero-searchboxinput input {
+    width: 220px;
+  }
+  .hero-searchboxbtn button {
+    padding: 10px 20px;
+    width: 130px;
+    font-size: 18px;
+  }
+  .herosection {
+    height: 90vh;
+    /* padding: 10px 0px; */
+  }
+}
