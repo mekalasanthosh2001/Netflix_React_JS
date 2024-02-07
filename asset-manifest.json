@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/Netflix_React_JS/static/css/main.8633160c.css",
+    "main.js": "/Netflix_React_JS/static/js/main.4e7117e4.js",
+    "static/media/vediok.mp4": "/Netflix_React_JS/static/media/vediok.2f461e9ae887fc1e0808.mp4",
+    "static/media/NTFhomepageimg.jpg": "/Netflix_React_JS/static/media/NTFhomepageimg.9ac2ff3fa814cf074c6d.jpg",
+    "static/media/aifunnyimges.png": "/Netflix_React_JS/static/media/aifunnyimges.836efd88498e14ebed8e.png",
+    "static/media/device-pile-in.png": "/Netflix_React_JS/static/media/device-pile-in.ff81d825b399d890f9b4.png",
+    "static/media/videom.mp4": "/Netflix_React_JS/static/media/videom.c838830b1bd74e98e7c8.mp4",
+    "static/media/mobile-0819.jpg": "/Netflix_React_JS/static/media/mobile-0819.063578d5b6d5ab4155ec.jpg",
+    "static/media/download-icon.gif": "/Netflix_React_JS/static/media/download-icon.1ce72c891b52e6f68f2f.gif",
+    "static/media/boxshot.png": "/Netflix_React_JS/static/media/boxshot.347f4ee3bafbdfe71112.png",
+    "static/media/tv.png": "/Netflix_React_JS/static/media/tv.0049bc70babc1f94cf88.png",
+    "index.html": "/Netflix_React_JS/index.html",
+    "main.8633160c.css.map": "/Netflix_React_JS/static/css/main.8633160c.css.map",
+    "main.4e7117e4.js.map": "/Netflix_React_JS/static/js/main.4e7117e4.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8633160c.css",
+    "static/js/main.4e7117e4.js"
+  ]
+}
