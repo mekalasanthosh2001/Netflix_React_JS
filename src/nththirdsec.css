@@ -4,6 +4,7 @@
   height: 100%;
   display: flex;
   /* padding: 10px 100px; */
+  padding: 11%;
   justify-content: center;
   align-items: center;
 }
@@ -112,10 +113,19 @@
 */
 @media (max-width: 600px) {
   .thirdsecimgimg img {
-    width: 80%;
+    width: 100%;
   }
   .thrdminibox {
     top: -80px;
     left: 22%;
+  }
+}
+@media (max-width: 400px) {
+  .thirdsidetextone h3 {
+    padding: 30px;
+    font-size: 22px;
+  }
+  .thirdsec-textside {
+    padding: 0px;
   }
 }

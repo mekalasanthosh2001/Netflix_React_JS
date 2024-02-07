@@ -1,6 +1,6 @@
 .herosection {
   color: white;
-  height: 85vh;
+  height: 80vh;
   width: 100%;
   display: flex;
   justify-content: center;
@@ -79,8 +79,21 @@ h2 {
     width: 130px;
     font-size: 18px;
   }
-  .herosection {
-    height: 90vh;
-    /* padding: 10px 0px; */
+}
+@media (max-width: 480px) {
+  .herosec-searchbox {
+    flex-direction: row;
+    align-items: center;
+  }
+  .herosec-searchbox {
+    padding: 30px 0px;
+    gap: 0px;
+  }
+  .herosec-searchbox input {
+    border-radius: 0px;
+  }
+  .hero-searchboxbtn button {
+    border-radius: 0px;
+    padding: 0px 5px;
   }
 }
