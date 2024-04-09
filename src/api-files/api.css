@@ -15,6 +15,7 @@
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
   gap: 20px;
+  position: relative;
 }
 .movie-grid-boxes {
   width: 100%;
@@ -38,6 +39,10 @@
   width: 100%;
   height: 240px;
   padding: 1px;
+  cursor: pointer;
+}
+.movie-grid-boxes{
+  cursor: pointer;
 }
 .movie-name {
   color: white;
@@ -87,7 +92,7 @@
 .secondsection {
   background-color: rgb(0, 0, 0);
   width: 100%;
-  height: 100vh;
+  height:80vh;
   color: white;
   border-top: 1px solid rgba(100, 99, 99, 0.311);
   display: flex;
@@ -103,11 +108,11 @@
   /* border: 2px solid red; */
   padding: 20px;
   width: 100%;
-  height: 450px;
+  /* height: 450px; */
 }
 .movie-posters {
   border: 2px solid rgba(153, 153, 153, 0.61);
-  padding: 20px 30px;
+  padding: 20px 30px 20px;
   margin: 10px;
   text-align: center;
   display: flex;
@@ -116,6 +121,8 @@
   justify-content: flex-start;
   align-items: center;
   gap: 10px;
+  background-color: rgba(41, 41, 41, 0.826);
+
 }
 .movie-posters img {
   border: 2px solid gray;
@@ -188,4 +195,85 @@ color: white;
   color: black;
   background-color: yellow;
   transition-duration: 0.4s;
+}
+
+
+
+
+
+
+/* buttonsection buttonsection buttonsection buttonsection buttonsection vbuttonsection */
+
+
+.buttonsection{
+  background-color: beige;
+  height: 10vh;
+  width: 100%;
+
+}
+
+
+
+
+
+
+
+
+
+/* movie-model  movie-model  movie-model   movie-model   movie-model*/
+
+.movie-model{
+ width: 100%;
+ height: 100vh;
+ background-color: rgba(39, 38, 38, 0.211);
+ position: absolute;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+
+}
+
+.movie-poster{
+  background-color: rgb(59, 58, 58);
+  width: 650px;
+  height: 450px;
+  display: flex;
+  flex-direction: row ;
+  padding: 20px;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  position: relative;
+  /* padding: ; */
+}
+.movie-poster img{
+  width: 60%;
+  /* height: 100%; */
+}
+
+.close-movie-poster{
+  position: absolute;
+  top: 12px;
+  right: 30px;
+}
+.movie-details{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  color: rgb(190, 189, 189);
+}
+.movie-details-pera{
+  display: flex;
+  width: 100%;
+  justify-content: flex-start;
+  gap: 30px;
+  align-items: center;
+  color: rgb(204, 229, 250);
+}
+.movie-details-pera span{
+  display: flex;
+  justify-content: center ;
+  align-items: center;
+  gap: 2px;
 }

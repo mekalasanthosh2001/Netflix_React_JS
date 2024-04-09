@@ -7,6 +7,7 @@ import Apiintegration from "./api-files/api";
 import { FaCircleUser } from "react-icons/fa6";
 import { MdMarkEmailUnread } from "react-icons/md";
 import { BsFillTelephoneFill } from "react-icons/bs";
+import NftFooter from "./footer";
 
 
 const Signupafterpage = () => {
@@ -96,8 +97,7 @@ const Signupafterpage = () => {
       <div>
         <Apiintegration />
       </div>
-
-      
+      <div className="footer"><NftFooter></NftFooter></div>
     </>
   );
 };
