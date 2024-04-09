@@ -1,5 +1,6 @@
 import React from "react";
 import "./ntfherosec.css";
+
 const Ntfherosection = () => {
   return (
     <>
@@ -14,7 +15,7 @@ const Ntfherosection = () => {
           <div className="heropera">
             <h2>
               Ready to watch? Enter your email to create or restart your
-              membership.{" "}
+              membership.
             </h2>
           </div>
         </div>
@@ -23,9 +24,7 @@ const Ntfherosection = () => {
             <input type="email" placeholder="Email address" />
           </div>
           <div className="hero-searchboxbtn">
-            <button>
-              Get Started <span>&gt;</span>
-            </button>
+            <button>Get Started</button>
           </div>
         </div>
       </div>

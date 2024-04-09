@@ -35,7 +35,7 @@ const NftFooter = () => {
             </ul>
           </div>
           {/*  */}
-          <div className="line1"id="footrbtn">
+          <div className="line1" id="footrbtn">
             <ul>
               <li>
                 <select name="" id="selectoptions">
@@ -48,7 +48,6 @@ const NftFooter = () => {
               </li>
             </ul>
           </div>
-          {/*  */}
           {/*  */}
         </div>
       </div>

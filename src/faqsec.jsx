@@ -16,7 +16,6 @@ const Faqsection = () => {
                 <div className="peras">
                   <p>What is Netflix?</p>
                   <img src={require("./ntfimages/icons8-plus-24.png")} alt="" />
-                  {/* <p className='span'>&#43;</p> */}
                 </div>
               </div>
               <div className="perehide">

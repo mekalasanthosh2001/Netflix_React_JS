@@ -11,7 +11,6 @@
 
 .thrdminibox {
   display: flex;
-  /* position: fixed; */
   position: relative;
   width: 55%;
   background-color: rgb(5, 5, 5);
@@ -101,16 +100,7 @@
   }
 }
 
-/* @media (max-width: 600px) {
-  .thirdsecimgimg img {
-    width: 100%;
-  }
 
-  .thirdsecimgimg {
-    width: 100%;
-  }
-}
-*/
 @media (max-width: 600px) {
   .thirdsecimgimg img {
     width: 100%;

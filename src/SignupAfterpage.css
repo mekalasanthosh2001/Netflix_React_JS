@@ -1,0 +1,142 @@
+.Signupafterpage {
+  width: 100%;
+  /* background-color: black; */
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+  background-image: linear-gradient(
+      to top,
+      rgba(0, 0, 0, 0.8) 0,
+      rgba(0, 0, 0, 0.4) 60%,
+      rgba(0, 0, 0, 0.8) 100%
+    ),
+    url(./ntfimages/NTFhomepageimg.jpg);
+
+  color: aliceblue;
+  overflow: hidden;
+}
+.Signupafterpage .navbar {
+  display: flex;
+  /* background-color: rgb(40, 41, 40); */
+  width: 100%;
+  /* height: 10vh; */
+  justify-content: space-between;
+  align-items: center;
+  padding: 35px 180px;
+}
+.navbar .navlist a {
+  color: rgb(252, 2, 2);
+  font-size: 44px;
+  font-family: sans-serif;
+  text-decoration: none;
+}
+
+.navullist .Profile {
+  list-style-type: none;
+  font-size: 17px;
+}
+.profile-btn {
+  background-color: red;
+  border-radius: 5px;
+  width: 80px;
+  height: 35px;
+  font-size: 17px;
+  border: none;
+  color: white;
+  font-weight: bold;
+}
+.profile-btn:hover {
+  color: black;
+  background-color: gold;
+}
+
+/* slider */
+.slider-page {
+  width: 90%;
+  /* padding: 280px 250px 0px 80px; */
+  margin: 220px 0px;
+}
+.slider-image-box img {
+  height: 220px;
+  width: 100%;
+  border: 2px solid rgba(109, 108, 108, 0.458);
+}
+
+.slick-slide > div {
+  margin: 0 10px;
+}
+.slick-list {
+  margin: 0px 20px;
+}
+.slider-page .tending h2 {
+  text-align: left;
+  width: 100%;
+  padding: 20px;
+}
+
+/* ///////////////////////////////profile-data///////////////////////////////////////////// */
+
+.profile-data{
+  background-color: rgb(249, 244, 235);
+  width: 250px;
+right: 30px;
+position: absolute;
+height: 200px;
+top:100px;
+border: 3px solid rgb(119, 119, 119);
+color: black;
+padding: 10px;
+border-radius: 8px;
+}
+.profile-data-pera{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  justify-content: center;
+  align-items: flex-start;
+  width: 100%;
+
+}
+.profile-name{
+  display: flex;
+  gap: 10px;
+  justify-content: flex-start;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  padding: 10px 10px;
+  border-bottom: 2px solid rgba(194, 194, 194, 0.503);
+  border-left: 1px solid rgb(194, 194, 194);
+  border-radius: 5px;
+  /* overflow:scroll; */
+
+}
+
+ .namesspace{
+  width: 100%;
+  overflow: overlay;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+.icons-user{
+  font-size: 35px;
+  color: rgb(67, 67, 67);
+}
+.icons-mail{
+  font-size: 25px;
+  color: rgba(83, 83, 83, 0.629); 
+}
+
+.profile-email{
+  display: flex;
+  gap: 10px;
+  justify-content: flex-start;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  padding: 8px 15px;
+  overflow: overlay;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+  /* padding: 10px 20px; */
+}

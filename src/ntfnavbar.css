@@ -22,6 +22,9 @@
   font-size: 17px;
 }
 
+.dashboardpage a{
+  text-decoration: none;
+}
 #selectoptions {
   padding: 5px 10px;
   background-color: rgba(128, 128, 128, 0.055);
@@ -45,6 +48,27 @@
   color: white;
   font-weight: bold;
 }
+.redbtn:hover {
+  border: 2px solid rgb(243, 243, 243);
+  background-color: rgb(244, 69, 69);
+  transition-duration: 0.4s;
+}
+
+.Dashboard {
+  background-color: red;
+  /* width: 80px; */
+  height: 35px;
+  font-size: 17px;
+  color: white;
+  border-radius: 5px;
+  border: none;
+  font-weight: bold;
+  padding: 4px 10px;
+}
+.Dashboard:hover {
+  color: black;
+  background-color: gold;
+}
 
 @media (max-width: 990px) {
   .navbar {
@@ -58,4 +82,15 @@
     /* padding-bottom: 130px; */
     /* height: 20vh;   */
   }
+}
+
+/* profile */
+.profile {
+  width: 250px;
+  height: 200px;
+  background-color: rgb(199, 140, 140);
+  position: absolute;
+  right: 10px;
+  top: 12vh;
+  padding: 4px;
 }

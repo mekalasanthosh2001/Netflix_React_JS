@@ -1,15 +1,21 @@
 // import React from "react";
 import "./ntfnavbar.css";
-import React, { useState } from "react";
+import React, {  useState } from "react";
 
 import SignupPopup from "./signuppopup";
 
-const Ntfnavbar = () => {
-  const [signupknow, setmodals] = useState(false);
+import { Link } from "react-router-dom";
 
-  const redyy = () => {
-    setmodals(!signupknow);
+const Ntfnavbar = ({ dashboardLink }) => {
+  const [signupnow, setmodals] = useState(false);
+ 
+
+
+
+  const signin = () => {
+    setmodals(!signupnow);
   };
+
 
   return (
     <>
@@ -26,17 +32,28 @@ const Ntfnavbar = () => {
               <option value="english">HINDI</option>
               <option value="english">TELUGU</option>
             </select>
-            <button className="redbtn" onClick={redyy}>
+            <button
+              className="redbtn"
+              onClick={signin}
+              style={{ cursor: "pointer" }}
+            >
               Sign In
             </button>
-            {/* <button onClick={getsignuppage}> click and signup</button> */}
+
+            <div className="dashboardpage" >
+              <Link to={dashboardLink }>
+                <button className="Dashboard" style={{display:'block'}} >DashBoard</button>
+              </Link>
+            </div>
           </ul>
         </div>
       </div>
 
-      {signupknow ? <SignupPopup /> : ""}
+      {signupnow ? <SignupPopup /> : ''}
     </>
   );
 };
 
 export default Ntfnavbar;
+
+
