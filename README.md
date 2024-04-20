@@ -1,3 +1,5 @@
+
+https://mekalasanthosh2001.github.io/Netflix_React_JS/
 **Project Description: Creating a Netflix Clone with React and IMDb API**
 
 In this project, I am developing a Netflix clone using React.js and integrating the IMDb API to fetch movie data. The goal is to create a user-friendly web application that mimics the Netflix interface, allowing users to browse and search for movies and TV shows. 
