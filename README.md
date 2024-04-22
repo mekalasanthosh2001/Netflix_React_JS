@@ -25,6 +25,8 @@ The Netflix clone project involves several key components and functionalities:
 ![image](https://github.com/mekalasanthosh2001/Netflix_React_JS/assets/104013993/596099e7-995a-45d1-8c40-95c587acf751)
 
 ![image](https://github.com/mekalasanthosh2001/Netflix_React_JS/assets/104013993/1fb3a036-2984-4f6d-ba4b-8fb656efb0bf)
+![image](https://github.com/mekalasanthosh2001/Netflix_React_JS/assets/104013993/051afe4f-0451-4106-ab64-e8c52bb40b77)
+
 ![image](https://github.com/mekalasanthosh2001/Netflix_React_JS/assets/104013993/dd6bc66a-2e4b-47cf-ac66-c394b0211e4a)
 **Footer Page:**
 ![image](https://github.com/mekalasanthosh2001/Netflix_React_JS/assets/104013993/d0930beb-4aa5-4faa-a6e9-0b94bb4f590e)
